@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+form button[type="submit"] {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#birthdayCard {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#birthdayCard h2 {
+  margin-bottom: 10px;
+}
+
+#personalizedMessage {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#shareableLink {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}

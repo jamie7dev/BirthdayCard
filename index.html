@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Birthday Card</title>
+  </head>
+  <body>
+    <h1>Birthday Card</h1>
+
+    <form id="birthdayForm">
+      <label for="friendName">Birthday Hero: </label>
+      <input type="text" id="friendName" required />
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="birthdayCard" style="display: none">
+      <h2>Happy Birthday!</h2>
+      <p id="personalizedMessage"></p>
+      <p>Share this card with your friend:</p>
+      <input type="text" id="shareableLink" readonly />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
